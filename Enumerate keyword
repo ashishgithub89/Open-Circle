@@ -1,4 +1,4 @@
-#Enumerate is a keyword that retrives the index position of each item in a string,list etc..in the form of a tuple
+#Enumerate is a keyword that retrives the index position of each item in a string,list etc..in pairs
     
 #Example 1:
 list = {1,2,3,4,5,6}
