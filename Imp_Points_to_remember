@@ -3,3 +3,8 @@
 s = {'a1':22,'a2':33,'a3':44}
 for item in s.items(): #.items() method is invoked to get the pair
     print(item)
+
+#Extracting just values
+for key,value in s.items():
+    print(value)
+
