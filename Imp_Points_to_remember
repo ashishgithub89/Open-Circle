@@ -1,0 +1,5 @@
+#Extracting Key,value pairs from a tuple
+
+s = {'a1':22,'a2':33,'a3':44}
+for item in s.items(): #.items() method is invoked to get the pair
+    print(item)
