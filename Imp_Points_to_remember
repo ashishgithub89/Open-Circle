@@ -5,6 +5,7 @@ for item in s.items(): #.items() method is invoked to get the pair
     print(item)
 
 #Extracting just values
-for key,value in s.items():
-    print(value)
+for key,value in s.items():        or               for value in s.values():
+    print(value)                                        print(value)
+
 
