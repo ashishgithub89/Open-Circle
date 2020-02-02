@@ -1,4 +1,4 @@
-#Extracting Key,value pairs from a tuple
+#ETRACTING KEY,VALUE PAIRS
 
 s = {'a1':22,'a2':33,'a3':44}
 for item in s.items(): #.items() method is invoked to get the pair
@@ -8,4 +8,40 @@ for item in s.items(): #.items() method is invoked to get the pair
 for key,value in s.items():        or               for value in s.values():
     print(value)                                        print(value)
 
+#ENUMERATE
+ENUMERATE is a keyword that retrives the index position of each item in a string,list etc..in pairs
+    
+#Example 1:
+list = {1,2,3,4,5,6}
+
+for _ in enumerate(list):
+    print(_)
+
+#Ans: 
+(0, 1)
+(1, 2)
+(2, 3)
+(3, 4)
+(4, 5)
+(5, 6)
+
+#Example 2:
+word = 'Hello Champ!'
+
+for _ in enumerate(word):
+    print(_)
+
+#Ans: 
+(0, 'H')
+(1, 'e')
+(2, 'l')
+(3, 'l')
+(4, 'o')
+(5, ' ')
+(6, 'C')
+(7, 'h')
+(8, 'a')
+(9, 'm')
+(10, 'p')
+(11, '!')
 
